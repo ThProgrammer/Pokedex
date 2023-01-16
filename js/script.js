@@ -35,6 +35,7 @@ const renderPokemon = async (pokemon) => {
         pokemonImage.style.display = 'block'
         pokemonName.innerHTML = data.name;
         pokemonNumber.innerHTML = data.id;
+
         pokemonImage.src = data['sprites']['versions']  ["generation-v"]['black-white']['animated']['front_default']
 
         input.value = "";
@@ -53,7 +54,7 @@ const renderPokemon = async (pokemon) => {
 form.addEventListener('submit', (event) => {
     event.preventDefault();
 
-    renderPokemon(input.value);
+    renderPokemon(input.value.toLowerCase());
     
 });
 
