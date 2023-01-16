@@ -25,6 +25,14 @@ main {
     max-width: 425px;
 }
 
+.pokemon_image {
+    position: absolute;
+    bottom: 55%;
+    left: 52%;
+    transform: translate(-63%, 20%);
+    height: 18%;
+}
+
 .pokemon_data {
     position: absolute;
     font-weight:600;
@@ -82,5 +90,7 @@ main {
 
 .button:active {
     box-shadow: inset -4px 4px 0 #222;
+    /* pesquisar sobre a "inset" */
     font-size: 0.9rem;
+    /* Diminui a fonte quando o botão esta apertado */
 }
