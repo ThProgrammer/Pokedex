@@ -1,2 +1,2 @@
 # Pokedex
- Um site com informações de pokemons para prática de JS, HTML e CSS
+ Um site que exibe o nome, número, e gif animado dos pokemons, criado com HTML, JS e CSS integrado com a POKEAPI
